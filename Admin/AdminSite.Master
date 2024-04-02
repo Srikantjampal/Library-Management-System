@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="default.aspx"><b>Home</b></a>
+                            <a class="nav-link" href="AdminHome.aspx"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="AuthorDetails.aspx"><b>Add Author</b></a>
@@ -49,10 +49,10 @@
                             <a class="nav-link" href="UpdateMemberDetails.aspx"><b>Member</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><b>Menu5</b></a>
+                            <a class="nav-link" href="BokInventory.aspx"><b>Books Inv.</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><b>Menu6</b></a>
+                            <a class="nav-link" href="BookIssueReturn.aspx"><b>Issue/Return</b></a>
                         </li>
                     </ul>
                 </div>

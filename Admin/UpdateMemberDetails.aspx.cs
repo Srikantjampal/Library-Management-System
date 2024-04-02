@@ -94,6 +94,7 @@ namespace LMS_Project.Admin
 
                 }
                 dbcon.CloseCon();
+                BindGridView();
             }
             else
             {
@@ -214,7 +215,17 @@ namespace LMS_Project.Admin
         }
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            UpdateMemberStatus("Delete");
+            Label mid = (Label)GridView1.Rows[e.RowIndex].FindControl("lblDisplayID");
+            int ID = Convert.ToInt32(mid.Text);
+                
+            cmd = new SqlCommand("sp_DeleteMember", dbcon.GetCon());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();           
+            cmd.Parameters.AddWithValue("@member_id", ID);
+            dbcon.OpenCon();
+            cmd.ExecuteNonQuery();
+            dbcon.CloseCon();
+            BindGridView();
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)

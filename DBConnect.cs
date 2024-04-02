@@ -1,4 +1,5 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 namespace LMS_Project
@@ -41,6 +42,26 @@ namespace LMS_Project
                 da.Dispose();
                 CloseCon();
             }
+        }
+
+        public Boolean InsertUpdateData(SqlCommand cmd)
+        {
+            bool recordSaved;
+            try
+            {
+                OpenCon();
+                cmd.ExecuteNonQuery();
+                recordSaved = true;
+            }
+            catch
+            {
+                recordSaved = false;
+            }
+            finally
+            {
+                CloseCon();
+            }
+            return recordSaved;
         }
     }
 }

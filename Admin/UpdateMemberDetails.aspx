@@ -5,8 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="container-fluid">
+        <center>
+            <hr />
         <div class="row">
-            <div class="col-sm-4 border">
+            <div class="col-sm-5 border">
+                <br />
                 <div class="row">
                     <div class="col-12">
                         <div class="form-group">
@@ -17,12 +20,14 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
+                        <center>
                         <div class="form-group">
                             <asp:Button ID="btnSearchMember" CssClass="btn btn-success" runat="server" Text="Search" OnClick="btnSearchMember_Click" ValidationGroup="btnSearch" />
                             <asp:Button ID="btnActiveMember" CssClass="btn btn-primary" runat="server" Text="Active" OnClick="btnActiveMember_Click" ValidationGroup="btnSearch" />
                             <asp:Button ID="btnPendingMember" CssClass="btn btn-warning" ForeColor="red" runat="server" Text="Pending" OnClick="btnPendingMember_Click" ValidationGroup="btnSearch" />
                             <asp:Button ID="btnDeactiveMember" CssClass="btn btn-danger" runat="server" Text="Deactive" OnClick="btnDeactiveMember_Click" ValidationGroup="btnSearch" />
                         </div>
+                        </center>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
@@ -107,6 +112,7 @@
             </div>
 
         </div>
+        </center>
         <div class="row">
             <div class="col-sm-12">
                 <h4>Member List</h4>
@@ -218,6 +224,7 @@
                                     <asp:TextBox ID="txtEditaddress" CssClass="form-control" Text='<%# Eval("full_address") %>' runat="server"></asp:TextBox>
                                 </EditItemTemplate>
                             </asp:TemplateField>
+                            <asp:BoundField DataField="account_status" HeaderText="status" ReadOnly="true" />
                             <asp:TemplateField HeaderText="Action">
                                 <ItemTemplate>
                                     <asp:LinkButton ID="lnkEdit" class="table-link text-primary" runat="server" ToolTip="Edit record" Text="edit" CommandName="edit">

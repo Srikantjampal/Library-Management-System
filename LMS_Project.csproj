@@ -70,7 +70,13 @@
     <Content Include="Admin\Add_publisher.aspx" />
     <Content Include="Admin\AdminHome.aspx" />
     <Content Include="Admin\AuthorDetails.aspx" />
+    <Content Include="Admin\BokInventory.aspx" />
+    <Content Include="Admin\BookIssueReturn.aspx" />
     <Content Include="Admin\UpdateMemberDetails.aspx" />
+    <Content Include="book_img\44391722.jpg" />
+    <Content Include="book_img\book.jpg" />
+    <Content Include="book_img\peakpx.jpg" />
+    <Content Include="book_img\slide1.jpg" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.3.1.slim.min.js" />
@@ -2198,6 +2204,20 @@
     </Compile>
     <Compile Include="Admin\AuthorDetails.aspx.designer.cs">
       <DependentUpon>AuthorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BokInventory.aspx.cs">
+      <DependentUpon>BokInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BokInventory.aspx.designer.cs">
+      <DependentUpon>BokInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BookIssueReturn.aspx.cs">
+      <DependentUpon>BookIssueReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BookIssueReturn.aspx.designer.cs">
+      <DependentUpon>BookIssueReturn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\UpdateMemberDetails.aspx.cs">
       <DependentUpon>UpdateMemberDetails.aspx</DependentUpon>
