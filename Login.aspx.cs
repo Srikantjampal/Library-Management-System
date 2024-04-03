@@ -30,6 +30,7 @@ namespace LMS_Project
                     Session["fullname"] = dr.GetValue(0).ToString();
                     Session["username"] = dr.GetValue(1).ToString();
                     Session["status"] = dr.GetValue(3).ToString();
+                    Session["mid"] = TxtMemberID.Text;
                 }
                 Response.Redirect("~/UserScreen/UserHome.aspx");
             }

@@ -7,15 +7,6 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
-
-            $(".dataTables_filter input").unbind().bind("input", function () {
-                
-                clearTimeout($.data(this, 'timer'));
-                var searchTerm = $(this).val();
-                $.data(this, 'timer', setTimeout(function () {
-                    $(".table").dataTable().search(searchTerm).draw();
-                }, 500));
-            });
         });
 
     </script>

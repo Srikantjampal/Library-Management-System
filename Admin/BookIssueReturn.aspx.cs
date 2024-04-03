@@ -16,7 +16,7 @@ namespace LMS_Project.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!this.IsPostBack)
-            {            
+            {
                 BindGridData();
             }
         }
@@ -54,7 +54,7 @@ namespace LMS_Project.Admin
             //cmd.Parameters.AddWithValue("@StatementType", "SelectByID");
             cmd.Parameters.AddWithValue("@id", txtBookID.Text.Trim());
             DataTable dt = dbcon.Load_Data(cmd);
-            if (dt.Rows.Count >=1)
+            if (dt.Rows.Count >= 1)
             {
                 txtBookName.Text = dt.Rows[0]["book_name"].ToString();
             }
@@ -71,9 +71,9 @@ namespace LMS_Project.Admin
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Clear();
 
-            cmd.Parameters.AddWithValue("@id",txtMemID.Text.Trim());
+            cmd.Parameters.AddWithValue("@id", txtMemID.Text.Trim());
             DataTable dt = dbcon.Load_Data(cmd);
-            if(dt.Rows.Count >=1 )
+            if (dt.Rows.Count >= 1)
             {
                 txtMemName.Text = dt.Rows[0]["full_name"].ToString();
             }
@@ -119,7 +119,7 @@ namespace LMS_Project.Admin
             if (dbcon.InsertUpdateData(cmd))
             {
                 updateBookStock();
-                
+
             }
             else
             {
@@ -148,7 +148,7 @@ namespace LMS_Project.Admin
 
         }
 
-            private bool isIssueEntryExist()
+        private bool isIssueEntryExist()
         {
             cmd = new SqlCommand("sp_checkIssueExist", dbcon.GetCon());
             cmd.CommandType = CommandType.StoredProcedure;
@@ -173,7 +173,7 @@ namespace LMS_Project.Admin
             cmd.Parameters.Clear();
             cmd.Parameters.AddWithValue("@book_id", txtBookID.Text.Trim());
             DataTable dt = dbcon.Load_Data(cmd);
-            if(dt.Rows.Count >=1)
+            if (dt.Rows.Count >= 1)
             {
                 return true;
             }
@@ -201,7 +201,100 @@ namespace LMS_Project.Admin
 
         protected void btnReturn_Click(object sender, EventArgs e)
         {
+            if (isBookExist() && isMemberExist())
+            {
+                if (isIssueEntryExist())
+                {
+                    if (CheckFine())
+                    {
+                        ReturnBook();
+                        BindGridData();
+                    }
+                    else
+                    {
+                        //RepeatDirection to fine page
+                        Response.Redirect("BookFine.aspx?bid="+txtBookID.Text + "&mid="+txtMemID.Text+ "&day="+ Session["day"].ToString());
+                    }
+                }
+                else
+                {
+                    ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Error','Member has already returned the book','error')", true);
+                }
+            }
+            else
+            {
+                ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Error','Enter Valid Member Id and Book ID','error')", true);
+            }
+        }
 
+        private void ReturnBook()
+        {
+            cmd = new SqlCommand("sp_ReturnBook", dbcon.GetCon());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@book_id", txtBookID.Text.Trim());
+            cmd.Parameters.AddWithValue("@member_id", txtMemID.Text.Trim());
+            if (dbcon.InsertUpdateData(cmd))
+            {
+                ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('success','Book returned Successfully','success')", true);
+
+
+            }
+            else
+            {
+                ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Error','Error! Book not Issued ','error')", true);
+
+            }
+        }
+
+        protected void txtDueDate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            try
+            {
+                if(e.Row.RowType == DataControlRowType.DataRow)
+                {
+                    DateTime dt = Convert.ToDateTime(e.Row.Cells[5].Text);
+                    DateTime today = DateTime.Today;
+                    if(today > dt)
+                    {
+                        e.Row.Cells[5].ForeColor = System.Drawing.Color.Red;
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Response.Write(ex.Message);
+            }
+
+        }
+
+        private bool CheckFine()
+        {
+            int days;
+            cmd = new SqlCommand("sp_getNumOfDay", dbcon.GetCon());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@book_id", txtBookID.Text.Trim());
+            cmd.Parameters.AddWithValue("@member_id", txtMemID.Text.Trim());
+            DataTable dt = dbcon.Load_Data(cmd);
+            if(dt.Rows.Count > 0)
+            {
+                days = Convert.ToInt32(dt.Rows[0]["Number_of_day"].ToString());
+                Session["day"] = days;
+                if(days <= 0)                
+                    return true;            
+                else
+                    return false;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

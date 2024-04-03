@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img width="100px" src="../book_img/book.jpg" />
+                                    <img width="100" src="../book_img/book.jpg" />
                                 </center>
                             </div>
                         </div>
@@ -72,18 +72,20 @@
                                 <label>Issue Date</label>
                                 <div class="form-group">
                                     <asp:TextBox ID="txtIssueDate" CssClass="form-control" placeholder="Start Date" runat="server" TextMode="Date"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Specify the Date" ControlToValidate="txtIssueDate" Display="Dynamic" ForeColor="Red" ValidationGroup="dateSpecification"></asp:RequiredFieldValidator>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <label>Due Date</label>
                                 <div class="form-group">
-                                    <asp:TextBox ID="txtDueDate" CssClass="form-control" placeholder="End Date" runat="server" TextMode="Date"></asp:TextBox>
+                                    <asp:TextBox ID="txtDueDate" CssClass="form-control" placeholder="End Date" runat="server" TextMode="Date" OnTextChanged="txtDueDate_TextChanged"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Specify the Date" ControlToValidate="txtDueDate" Display="Dynamic" ForeColor="Red" ValidationGroup="dateSpecification"></asp:RequiredFieldValidator>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6">
-                                <asp:Button ID="btn" runat="server" class="btn btn-block btn-primary" Text="Issue" OnClick="btnIssue_Click" />
+                                <asp:Button ID="btn" runat="server" class="btn btn-block btn-primary" Text="Issue" OnClick="btnIssue_Click" ValidationGroup="dateSpecification" />
                             </div>
                             <div class="col-6">
                                 <asp:Button ID="btnReturn" runat="server" class="btn btn-block btn-success" Text="Return" OnClick="btnReturn_Click" />
@@ -114,7 +116,7 @@
 
                         <div class="row">
                             <div class="col">
-                                <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server" AutoGenerateColumns="false" EmptyDataText="No Record Found">
+                                <asp:GridView class="table table-striped table-bordered table-sm" Font-Size="Small"  ID="GridView1" runat="server" AutoGenerateColumns="false" EmptyDataText="No Record Found" OnRowDataBound="GridView1_RowDataBound">
                                     <Columns>
                                         <asp:BoundField DataField="member_id" HeaderText="Member ID" SortExpression="member_id" />
                                         <asp:BoundField DataField="member_name" HeaderText="Member Name" SortExpression="member_name" />

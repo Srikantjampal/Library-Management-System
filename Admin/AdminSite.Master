@@ -54,6 +54,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="BookIssueReturn.aspx"><b>Issue/Return</b></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ViewBooks.aspx"><b>ViewBook</b></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- Navbar Right section-->

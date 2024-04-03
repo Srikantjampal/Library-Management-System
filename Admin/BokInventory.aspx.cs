@@ -357,7 +357,7 @@ namespace LMS_Project.Admin
         }
         private void ClearControl()
         {
-            txtBookName.Text = txtActualStock.Text = txtBookCost.Text = txtBookDesc.Text = txtCurrentStock.Text = TxtEdition.Text = TxtPublishDate.Text =txtPages.Text = string.Empty;
+            txtBookName.Text = txtActualStock.Text = txtBookCost.Text = txtBookDesc.Text = txtCurrentStock.Text = TxtEdition.Text = TxtPublishDate.Text =txtPages.Text = txtIssuedBooks.Text = string.Empty;
             ddlAuthor.SelectedIndex = -1;
             ddlPublisherName.SelectedIndex = -1;
             FileUpload1.PostedFile.InputStream.Dispose();

@@ -71,8 +71,10 @@
     <Content Include="Admin\AdminHome.aspx" />
     <Content Include="Admin\AuthorDetails.aspx" />
     <Content Include="Admin\BokInventory.aspx" />
+    <Content Include="Admin\BookFine.aspx" />
     <Content Include="Admin\BookIssueReturn.aspx" />
     <Content Include="Admin\UpdateMemberDetails.aspx" />
+    <Content Include="Admin\ViewBooks.aspx" />
     <Content Include="book_img\44391722.jpg" />
     <Content Include="book_img\book.jpg" />
     <Content Include="book_img\peakpx.jpg" />
@@ -2172,7 +2174,10 @@
     <Content Include="Slideimg\slide2.png" />
     <Content Include="Slideimg\slider1.jpg" />
     <Content Include="Slideimg\slider2.jpg" />
+    <Content Include="UserScreen\uReport.aspx" />
     <Content Include="UserScreen\UserHome.aspx" />
+    <Content Include="UserScreen\userprofile.aspx" />
+    <Content Include="UserScreen\uViewBook.aspx" />
     <Content Include="Web.config" />
     <Content Include="signout.aspx" />
   </ItemGroup>
@@ -2212,6 +2217,13 @@
     <Compile Include="Admin\BokInventory.aspx.designer.cs">
       <DependentUpon>BokInventory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\BookFine.aspx.cs">
+      <DependentUpon>BookFine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BookFine.aspx.designer.cs">
+      <DependentUpon>BookFine.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\BookIssueReturn.aspx.cs">
       <DependentUpon>BookIssueReturn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2225,6 +2237,13 @@
     </Compile>
     <Compile Include="Admin\UpdateMemberDetails.aspx.designer.cs">
       <DependentUpon>UpdateMemberDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewBooks.aspx.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewBooks.aspx.designer.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="default.aspx.cs">
@@ -2266,6 +2285,13 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="UserScreen\uReport.aspx.cs">
+      <DependentUpon>uReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserScreen\uReport.aspx.designer.cs">
+      <DependentUpon>uReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserScreen\User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2286,6 +2312,20 @@
     </Compile>
     <Compile Include="signout.aspx.designer.cs">
       <DependentUpon>signout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserScreen\userprofile.aspx.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserScreen\userprofile.aspx.designer.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserScreen\uViewBook.aspx.cs">
+      <DependentUpon>uViewBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserScreen\uViewBook.aspx.designer.cs">
+      <DependentUpon>uViewBook.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "D:\\Languages\\Asp .net\\LMS_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\BokInventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\adminsite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\adminsite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\ureport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\ureport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\uviewbook.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\uviewbook.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\ureport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\ureport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\viewbooks.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\viewbooks.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\viewbooks.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\viewbooks.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\userscreen\\uviewbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:userscreen\\uviewbook.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\bokinventory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\bokinventory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\bookissuereturn.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\bookissuereturn.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|d:\\languages\\asp .net\\lms_project\\admin\\bookissuereturn.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:admin\\bookissuereturn.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\AdminSite.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\AdminSite.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\SignUp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:SignUp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\Add_publisher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\DBConnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:DBConnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\Add_publisher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\UpdateMemberDetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2841EE-273B-410C-8FF8-A7E8BC12C29E}|LMS_Project.csproj|solutionrelative:Admin\\UpdateMemberDetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,67 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookIssueReturn.aspx.cs",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BookIssueReturn.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\BookIssueReturn.aspx.cs",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BookIssueReturn.aspx.cs",
-              "RelativeToolTip": "Admin\\BookIssueReturn.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T19:01:34.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookIssueReturn.aspx",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BookIssueReturn.aspx",
-              "RelativeDocumentMoniker": "Admin\\BookIssueReturn.aspx",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BookIssueReturn.aspx",
-              "RelativeToolTip": "Admin\\BookIssueReturn.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-02T18:51:22.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BokInventory.aspx.cs",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\BokInventory.aspx.cs",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx.cs",
-              "RelativeToolTip": "Admin\\BokInventory.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T07:40:37.057Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BokInventory.aspx",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx",
-              "RelativeDocumentMoniker": "Admin\\BokInventory.aspx",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx",
-              "RelativeToolTip": "Admin\\BokInventory.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-02T06:15:49.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AdminSite.Master",
               "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\AdminSite.Master",
               "RelativeDocumentMoniker": "Admin\\AdminSite.Master",
@@ -122,85 +70,150 @@
               "RelativeToolTip": "Admin\\AdminSite.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-31T19:51:40.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Add_publisher.aspx",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx",
-              "RelativeDocumentMoniker": "Admin\\Add_publisher.aspx",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx",
-              "RelativeToolTip": "Admin\\Add_publisher.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-02T08:55:00.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBConnect.cs",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\DBConnect.cs",
-              "RelativeDocumentMoniker": "DBConnect.cs",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\DBConnect.cs",
-              "RelativeToolTip": "DBConnect.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAwwDQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T08:05:32.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Add_publisher.aspx.cs",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\Add_publisher.aspx.cs",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\Add_publisher.aspx.cs",
-              "RelativeToolTip": "Admin\\Add_publisher.aspx.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAADwv2wAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:03:18.535Z",
+              "WhenOpened": "2024-04-03T18:55:28.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SignUp.aspx",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\SignUp.aspx",
-              "RelativeDocumentMoniker": "SignUp.aspx",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\SignUp.aspx",
-              "RelativeToolTip": "SignUp.aspx",
+              "Title": "uReport.aspx.cs",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uReport.aspx.cs",
+              "RelativeDocumentMoniker": "UserScreen\\uReport.aspx.cs",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uReport.aspx.cs",
+              "RelativeToolTip": "UserScreen\\uReport.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:50:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "uReport.aspx",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uReport.aspx",
+              "RelativeDocumentMoniker": "UserScreen\\uReport.aspx",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uReport.aspx",
+              "RelativeToolTip": "UserScreen\\uReport.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-01T09:20:59.504Z",
+              "WhenOpened": "2024-04-03T18:48:45.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewBooks.aspx.cs",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\ViewBooks.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\ViewBooks.aspx.cs",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\ViewBooks.aspx.cs",
+              "RelativeToolTip": "Admin\\ViewBooks.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:46:30.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "uViewBook.aspx.cs",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uViewBook.aspx.cs",
+              "RelativeDocumentMoniker": "UserScreen\\uViewBook.aspx.cs",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uViewBook.aspx.cs",
+              "RelativeToolTip": "UserScreen\\uViewBook.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:46:25.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UpdateMemberDetails.aspx",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx",
-              "RelativeDocumentMoniker": "Admin\\UpdateMemberDetails.aspx",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx",
-              "RelativeToolTip": "Admin\\UpdateMemberDetails.aspx",
+              "Title": "ViewBooks.aspx",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\ViewBooks.aspx",
+              "RelativeDocumentMoniker": "Admin\\ViewBooks.aspx",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\ViewBooks.aspx",
+              "RelativeToolTip": "Admin\\ViewBooks.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-31T19:14:13.116Z",
+              "WhenOpened": "2024-04-03T18:45:54.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "UpdateMemberDetails.aspx.cs",
-              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\UpdateMemberDetails.aspx.cs",
-              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\UpdateMemberDetails.aspx.cs",
-              "RelativeToolTip": "Admin\\UpdateMemberDetails.aspx.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwGAAAAAfAAAA",
+              "Title": "uViewBook.aspx",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uViewBook.aspx",
+              "RelativeDocumentMoniker": "UserScreen\\uViewBook.aspx",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\uViewBook.aspx",
+              "RelativeToolTip": "UserScreen\\uViewBook.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-03T18:45:36.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.Master",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\User.Master",
+              "RelativeDocumentMoniker": "UserScreen\\User.Master",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\User.Master",
+              "RelativeToolTip": "UserScreen\\User.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-03T18:41:08.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BokInventory.aspx.cs",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\BokInventory.aspx.cs",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Admin\\BokInventory.aspx.cs",
+              "RelativeToolTip": "Admin\\BokInventory.aspx.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T20:02:50.471Z",
+              "WhenOpened": "2024-04-03T17:47:44.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-03T16:01:53.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "userprofile.aspx.cs",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\userprofile.aspx.cs",
+              "RelativeDocumentMoniker": "UserScreen\\userprofile.aspx.cs",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\userprofile.aspx.cs",
+              "RelativeToolTip": "UserScreen\\userprofile.aspx.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAIwJkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:04:16.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "userprofile.aspx",
+              "DocumentMoniker": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\userprofile.aspx",
+              "RelativeDocumentMoniker": "UserScreen\\userprofile.aspx",
+              "ToolTip": "D:\\Languages\\Asp .net\\LMS_Project\\UserScreen\\userprofile.aspx",
+              "RelativeToolTip": "UserScreen\\userprofile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-03T16:04:19.646Z",
               "EditorCaption": ""
             }
           ]
